@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Horse Racing</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="racing-box">
+        <div class="racing-area">
+          <div>
+            <img id="horse1" src="image/black.png" alt="" />
+          </div>
+          <div>
+            <img id="horse2" src="image/green.png" alt="" />
+          </div>
+          <div>
+            <img id="horse3" src="image/red.png" alt="" />
+          </div>
+        </div>
+
+        <div class="racing-results">
+          <div><span id="result-horse1"></span></div>
+          <div><span id="result-horse2"></span></div>
+          <div><span id="result-horse3"></span></div>
+        </div>
+      </div>
+
+      <div class="racing-bet">
+        <div>
+          <div class="radio-buttons">
+            <div>
+              <input type="radio" id="racer1" name="racer" value="1">
+              <label for="racer1">1</label>
+            </div>
+            <div>
+              <input type="radio" id="racer2" name="racer" value="2">
+              <label for="racer2">2</label>
+            </div>
+            <div>
+              <input type="radio" id="racer3" name="racer" value="3">
+              <label for="racer3">3</label>
+            </div>
+          </div>
+  
+          <button type="button" id="start-race">START RACE!</button>
+
+        </div>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
