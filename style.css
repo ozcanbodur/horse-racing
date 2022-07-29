@@ -78,3 +78,35 @@ img {
     flex-direction: row;
     justify-content: space-between;
 }
+@media only screen and (max-width: 600px) {
+.racing-area {
+        width: 90%;
+    }
+        .racing-results {
+            width: 10%;
+        }
+img {
+        width: 100px;
+        height: 100px;
+    }
+        .racing-results>div>span {
+            font-size: 70px;
+            font-weight: bold;
+            position: absolute;
+            left: 0;
+        }
+     
+   
+.racing-bet>div {
+        width: 50%;
+        height: 100px;
+        border-radius: 5px;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        padding: 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        margin-top: 10px;
+    }
+    
+}
